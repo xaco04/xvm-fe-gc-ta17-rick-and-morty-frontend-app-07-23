@@ -1,27 +1,25 @@
-# RickymortyappV002
+# Rick & Morty Frontend App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Realiza la siguiente interfaz utilizando para ello Angular Framework 12, debes integrar en el proyecto al menos dos componentes.
 
-## Development server
+Sobre la API REST https://rickandmortyapi.com/ realiza las consultas GET necesarias para pintar la información de varios personajes en tu vista web. Consulta la documentación para poder obtener URIs válidas para cada personaje. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Añade tres enlaces en la parte superior de la página (puedes utilizar un navbar). El primero dará acceso a la pantalla de bienvenida (Home). El segundo mostrará un listado de personajes aleatorio. Y el tercer enlace debe mostrar mediante otra ruta el nombre del programador, versión y fecha de desarrollo (about us). Configura correctamente el sistema de enrutado de angular.
 
-## Code scaffolding
+Ejemplo de diseño:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://github.com/xaco04/xvm-fe-gc-ta17-rick-and-morty-frontend-app-07-23/assets/93447803/941e8c97-4a9c-4ac8-a093-c2a613e44fa0)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Utiliza para ello la funcionalidad de la clase 'HttpClient'. Se recomienda integrar Bootstrap en la interfaz visual incluyendo los Servicios y Pipes que consideres necesario. Define la vista de detalle de cada personaje.
 
-## Running unit tests
+Debes adjuntar las URL de los diferentes repositorios realizados para resolver la tarea (añade node_modules al gitignore). Recuerda que tienes fecha límite de entrega. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Vistas necesarias: 
+login
+register
+home
+characters
+Vista detalle
+about 
+Recuerda utilizar servicios y pipes para ello. Además de ello el proyecto debe estar disponible en AWS Amplify. Adjunta la url generada a la entrega.
