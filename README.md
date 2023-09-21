@@ -16,10 +16,12 @@ Utiliza para ello la funcionalidad de la clase 'HttpClient'. Se recomienda integ
 Debes adjuntar las URL de los diferentes repositorios realizados para resolver la tarea (añade node_modules al gitignore). Recuerda que tienes fecha límite de entrega. 
 
 Vistas necesarias: 
-login
-register
-home
-characters
-Vista detalle
-about 
+- login
+- register
+- home
+- characters
+- Vista detalle
+- about
+
+
 Recuerda utilizar servicios y pipes para ello. Además de ello el proyecto debe estar disponible en AWS Amplify. Adjunta la url generada a la entrega.
